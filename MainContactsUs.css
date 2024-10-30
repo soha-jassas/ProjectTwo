@@ -1,0 +1,489 @@
+@font-face {
+  font-family: "EsteadadBlack";
+  src: url("./Assest/Media/Font/Estedad/Black/Estedad-Black.eot");
+  src: url("./Assest/Media/Font/Estedad/Black/Estedad-Black.woff") format("woff"), url("./Assest/Media/Font/Estedad/Black/Estedad-Black.woff2") format("woff2"), url("./Assest/Media/Font/Estedad/Black/Estedad-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "EsteadadBold";
+  src: url("./Assest/Media/Font/Estedad/Bold/Estedad-Bold.eot");
+  src: url("./Assest/Media/Font/Estedad/Bold/Estedad-Bold.woff") format("woff"), url("./Assest/Media/Font/Estedad/Bold/Estedad-Bold.woff2") format("woff2"), url("./Assest/Media/Font/Estedad/Bold/Estedad-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "EsteadadLight";
+  src: url("./Assest/Media/Font/Estedad/Light/Estedad-Light.eot");
+  src: url("./Assest/Media/Font/Estedad/Light/Estedad-Light.woff") format("woff"), url("./Assest/Media/Font/Estedad/Light/Estedad-Light.woff2") format("woff2"), url("./Assest/Media/Font/Estedad/Light/Estedad-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Yekan";
+  src: url("./Assest/Media/Font/Yekan/YekanBakhFaNum-Bold.eot");
+  src: url("./Assest/Media/Font/Yekan/YekanBakhFaNum-Bold.woff") format("woff"), url("./Assest/Media/Font/Yekan/YekanBakhFaNum-Bold.woff2") format("woff2"), url("./Assest/Media/Font/Yekan/YekanBakhFaNum-Bold.ttf") format("truetype");
+}
+header > div.NavBar > div.container > nav > ul > li > a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 65%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  direction: rtl;
+}
+
+header {
+  width: 100%;
+  position: relative;
+}
+header > div.TopBanner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+header > div.TopBanner > img {
+  width: 100%;
+  height: 70px;
+}
+header > div.TopBanner > a {
+  text-decoration: none;
+}
+header > div.TopBanner > a > span {
+  font-family: EsteadadBold;
+  font-size: 15px;
+  color: #FFFFFF;
+  background-color: #234338;
+  position: absolute;
+  right: 40.5%;
+  top: 17%;
+}
+header > div.NavBar {
+  width: 100%;
+  height: 77px;
+  background-color: #1A3129;
+}
+header > div.NavBar > div.logo > img {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  right: 130px;
+  top: 90px;
+}
+header > div.NavBar > div.logo > h1 {
+  font-family: EsteadadBold;
+  color: #FFFFFF;
+  font-size: 25px;
+  font-weight: 800;
+  position: absolute;
+  top: 62%;
+  right: 11%;
+  padding-right: 10px;
+}
+header > div.NavBar > div.container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header > div.NavBar > div.container > nav {
+  display: flex;
+}
+header > div.NavBar > div.container > nav > ul {
+  display: flex;
+  flex-direction: row-reverse;
+}
+header > div.NavBar > div.container > nav > ul > li {
+  display: flex;
+  margin: 35px;
+}
+header > div.NavBar > div.container > nav > ul > li > a {
+  font-family: EsteadadBold;
+}
+header > div.NavBar > div.container > nav > ul > li > a.Home {
+  color: #CBEA7B;
+}
+header > div.NavBar > div.container > nav > ul > li > a.ContactUs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 8px;
+  width: 102px;
+  height: 45px;
+  color: #000000;
+  background-color: #CBEA7B;
+  border-radius: 6px;
+  position: absolute;
+  top: 57%;
+}
+
+footer {
+  width: 100%;
+  height: 225px;
+  background-color: #1A3129;
+}
+footer .FooterSection {
+  height: 180px;
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+footer .FooterSection .footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 20px;
+}
+footer .FooterSection .footer .footer-logo {
+  display: flex;
+  align-items: center;
+}
+footer .FooterSection .footer .footer-logo img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+footer .FooterSection .footer .footer-logo h1 {
+  font-family: EsteadadBlack;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 800;
+  margin-right: 10px;
+  margin-bottom: 22px;
+}
+footer .FooterSection .footer .footer-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+footer .FooterSection .footer .footer-menu nav ul {
+  display: flex;
+}
+footer .FooterSection .footer .footer-menu nav ul li a {
+  padding: 8px;
+  text-decoration: none;
+  font-family: EsteadadBold;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+footer .FooterSection .footer .footer-top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  direction: ltr;
+}
+footer .FooterSection .footer .footer-top a {
+  margin-right: 20px;
+}
+footer .FooterSection .footer .footer-top a img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 22px;
+}
+footer .FooterSection .footer .footer-top h2 {
+  display: flex;
+  font-family: EsteadadLight;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-bottom: revert;
+}
+footer .FooterSection .footer-box {
+  text-align: left;
+  width: 100%;
+  height: 70px;
+  background-color: #2C5446;
+  margin-top: 20px;
+  border-radius: 10px;
+  direction: ltr;
+  display: flex;
+  align-items: center;
+}
+footer .FooterSection .footer-box .row {
+  display: flex;
+}
+footer .FooterSection .footer-box .row .col {
+  padding-left: 16px;
+}
+footer .FooterSection .footer-box .row .col .box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid #1b3d31;
+  border-radius: 4px;
+  width: 195px;
+  height: 48px;
+  direction: ltr;
+}
+footer .FooterSection .footer-box .row .col .box .box-body {
+  display: flex;
+  direction: ltr;
+}
+footer .FooterSection .footer-box .row .col .box .box-body img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  margin-top: -3px;
+}
+footer .FooterSection .footer-box .row .col .box .box-body h1 {
+  font-family: EsteadadLight;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+footer .FooterSection .footer-box span {
+  direction: rtl;
+  text-align: right;
+  text-align: justify;
+  font-family: EsteadadBold;
+  font-size: 16px;
+  padding: 10px;
+  margin-left: 30%;
+}
+
+header > div.NavBar > div.container > nav > ul > li > a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 65%;
+}
+
+@font-face {
+  font-family: "EsteadadBlack";
+  src: url("./Assest/Media/Font/Estedad/Black/Estedad-Black.eot");
+  src: url("./Assest/Media/Font/Estedad/Black/Estedad-Black.woff") format("woff"), url("./Assest/Media/Font/Estedad/Black/Estedad-Black.woff2") format("woff2"), url("./Assest/Media/Font/Estedad/Black/Estedad-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "EsteadadBold";
+  src: url("./Assest/Media/Font/Estedad/Bold/Estedad-Bold.eot");
+  src: url("./Assest/Media/Font/Estedad/Bold/Estedad-Bold.woff") format("woff"), url("./Assest/Media/Font/Estedad/Bold/Estedad-Bold.woff2") format("woff2"), url("./Assest/Media/Font/Estedad/Bold/Estedad-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "EsteadadLight";
+  src: url("./Assest/Media/Font/Estedad/Light/Estedad-Light.eot");
+  src: url("./Assest/Media/Font/Estedad/Light/Estedad-Light.woff") format("woff"), url("./Assest/Media/Font/Estedad/Light/Estedad-Light.woff2") format("woff2"), url("./Assest/Media/Font/Estedad/Light/Estedad-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Yekan";
+  src: url("./Assest/Media/Font/Yekan/YekanBakhFaNum-Bold.eot");
+  src: url("./Assest/Media/Font/Yekan/YekanBakhFaNum-Bold.woff") format("woff"), url("./Assest/Media/Font/Yekan/YekanBakhFaNum-Bold.woff2") format("woff2"), url("./Assest/Media/Font/Yekan/YekanBakhFaNum-Bold.ttf") format("truetype");
+}
+.Contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+  position: absolute;
+  width: 1279px;
+  height: 1295px;
+  left: calc(50% - 639.5px + 0.5px);
+  top: 245px;
+}
+.Contact .Contact-Heading .background {
+  position: absolute;
+  width: 643px;
+  height: 326px;
+  left: 335px;
+  top: -50px;
+}
+.Contact .Contact-Heading .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 14px;
+  gap: 10px;
+  width: 100px;
+  height: 100px;
+  background-blend-mode: normal, luminosity, normal;
+  border: 4px solid #FFFFFF;
+  border-radius: 10px;
+  position: absolute;
+  left: 610px;
+  top: 20px;
+}
+.Contact .Contact-Heading h1 {
+  width: 1120px;
+  height: 57px;
+  font-family: EsteadadBold;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 600%;
+  text-align: center;
+  color: #262626;
+  margin: 0 auto;
+  position: absolute;
+  top: 150px;
+  right: 5%;
+}
+.Contact .Contact-Heading p {
+  width: 1120px;
+  height: 72px;
+  font-family: EsteadadLight;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #333333;
+  position: absolute;
+  top: 335px;
+  left: 65px;
+}
+.Contact .Contact-Information {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 50px 105px;
+  gap: 30px;
+  width: 1279px;
+  height: 214px;
+  background: #1A3129;
+  border-radius: 12px;
+  position: absolute;
+  top: 490px;
+}
+.Contact .Contact-Information .email,
+.Contact .Contact-Information .phone,
+.Contact .Contact-Information .location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  gap: 16px;
+  width: 336.33px;
+  height: 114px;
+  background: #234338;
+  border: 1px solid #2C5446;
+  border-radius: 6px;
+}
+.Contact .Contact-Information .email img,
+.Contact .Contact-Information .phone img,
+.Contact .Contact-Information .location img {
+  width: 26px;
+  height: 26px;
+}
+.Contact .Contact-Information .email h4,
+.Contact .Contact-Information .phone h4,
+.Contact .Contact-Information .location h4 {
+  width: 288.33px;
+  height: 24px;
+  font-family: EsteadadLight;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.Contact .Contact-Form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 60px;
+  gap: 40px;
+  width: 1279px;
+  height: 628px;
+  background: #F7FCE9;
+  border: 1px solid #E5F5BD;
+  box-shadow: 10px 10px 50px rgba(0, 98, 255, 0.03);
+  border-radius: 12px;
+  position: absolute;
+  bottom: -80px;
+}
+.Contact .Contact-Form .Contact-Form-Img {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 20px;
+  width: 559.5px;
+  height: 507px;
+}
+.Contact .Contact-Form .Contact-Form-Img a {
+  display: flex;
+}
+.Contact .Contact-Form .Contact-Form-Img a .map {
+  width: 559.5px;
+  height: 435px;
+  border-radius: 8px;
+}
+.Contact .Contact-Form .Contact-Form-Img a .icon {
+  display: flex;
+  position: absolute;
+  top: 500px;
+}
+.Contact .Contact-Form .Contact-Form-Img a .icon img {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px;
+  width: 52px;
+  height: 52px;
+  background: #CBEA7B;
+  border-radius: 6px;
+}
+.Contact .Contact-Form form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 15px;
+  width: 559.5px;
+  height: 508px;
+  position: relative;
+}
+.Contact .Contact-Form form .text-name,
+.Contact .Contact-Form form .text-email,
+.Contact .Contact-Form form .text-number,
+.Contact .Contact-Form form .text-massege {
+  width: 269.75px;
+  height: 24px;
+  font-family: EsteadadBlack;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4C4C4C;
+}
+.Contact .Contact-Form form #name,
+.Contact .Contact-Form form #email,
+.Contact .Contact-Form form #number,
+.Contact .Contact-Form form #massege {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  gap: 77px;
+  width: 269.75px;
+  height: 60px;
+  background: #EEF8D3;
+  border: 1px solid #DCF1A7;
+  border-radius: 6px;
+}
+.Contact .Contact-Form form .send {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 24px;
+  gap: 8px;
+  width: 559.5px;
+  height: 49px;
+  background: #CBEA7B;
+  border-radius: 6px;
+  border: 0;
+  font-family: EsteadadBold;
+}
+
+/*# sourceMappingURL=MainContactsUs.css.map */
